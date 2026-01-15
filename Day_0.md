@@ -16,6 +16,6 @@ Given below is the constraint:
     }
 ```
 You can try it out here:
-![https://edaplayground.com/x/WxzY](https://brandfetch.com/edaplayground.com)
+https://edaplayground.com/x/WxzY
 
 -------------------------------------------------------------------------------------------
