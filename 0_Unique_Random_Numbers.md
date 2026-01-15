@@ -18,7 +18,7 @@ Given below is the constraint:
 === Try Here ===
 
 <a href="https://edaplayground.com/x/WxzY" target="_blank">
-  <img src="/utility/streamline-plump-color--gameboy.png" alt="Lets Play" width="50" height="50">
+  <img src="/utility/streamline-plump-color--gameboy.png" alt="Lets Play" width="50" height="50" x="20">
 </a>
 
 -------------------------------------------------------------------------------------------
