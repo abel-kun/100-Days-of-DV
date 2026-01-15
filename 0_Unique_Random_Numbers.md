@@ -15,8 +15,7 @@ Given below is the constraint:
         }
     }
 ```
-Lets Play ...
-
+Lets Play:
 <a href="https://edaplayground.com/x/WxzY" target="_blank">
   <img src="/utility/streamline-plump-color--gameboy.png" alt="Lets Play" width="50" height="50">
 </a> 
