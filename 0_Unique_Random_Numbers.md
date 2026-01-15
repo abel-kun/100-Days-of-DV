@@ -18,4 +18,6 @@ Given below is the constraint:
 You can try it out here:
 https://edaplayground.com/x/WxzY
 
+[![Lets Play](/utility/streamline-plump-color--gameboy.png)](https://edaplayground.com/x/WxzY)
+
 -------------------------------------------------------------------------------------------
