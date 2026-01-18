@@ -50,7 +50,7 @@ Factoy Override can be done by two ways:
 * Instance override by type/name
 ```systemverilog
 // Override all the objects of a particular type
-set_type_override_by_type ( original_type,
+set_type_override_by_type ( uvm_object_wrapper original_type,
                             uvm_object_wrapper override_type,
                             bit replace=1);
 
@@ -67,10 +67,45 @@ set_inst_override_by_name (string original_type_name,
                            string override_type_name,
                            string full_inst_path);
 ```
+We will look at the most common / default type of overriding that is, Override Type by Type.
+Consider the above mentioned classes, packet and short_packet.
+We create a test class where we are making use of the build_phase of UVM to create the instance of packet using the create() method of factory.
+```systemverilog
+pkt = packet::type_id::create("pkt", this);
+```
+The above will create an instance of the class packet as pkt.
+Now if we get the class details by calling the in-built print method, we can see that the type of the instance pkt is 'packet'.
+```
+KERNEL Output:
+# -------------------------
+# Name  Type    Size  Value
+# -------------------------
+# pkt   packet  -     @367 
+# -------------------------
+```
+We can now use the Factory Override feature to change / substitute / override the type of pkt instance by short_packet.
+
+```systemverilog
+set_type_override_by_type(packet::get_type, short_packet::get_type);
+```
+After overriding, if we check the type of instance, we can see that it is now changed to short_packet.
+```
+KERNEL Output:
+# -------------------------------
+# Name  Type          Size  Value
+# -------------------------------
+# pkt   short_packet  -     @367 
+# -------------------------------
+```
+
+
+You can checkout in detail about this topic here: https://www.chipverify.com/uvm/uvm-factory-override.
+
+
 ----------------------------------------------------------------------------------------------------
 Try here:
 
-<a href="" target="_blank">
+<a href="https://edaplayground.com/x/YmS3" target="_blank">
   <img src="/utility/streamline-plump-color--gameboy.png" alt="Lets Play" width="70" height="70">
 </a>
 
