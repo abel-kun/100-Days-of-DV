@@ -103,7 +103,7 @@ You can checkout in detail about this topic here: https://www.chipverify.com/uvm
 
 
 ----------------------------------------------------------------------------------------------------
-Try here:
+Override here:
 
 <a href="https://edaplayground.com/x/YmS3" target="_blank">
   <img src="/utility/streamline-plump-color--gameboy.png" alt="Lets Play" width="70" height="70">
