@@ -36,7 +36,7 @@ The above constraint makes sure that the consecutive indices do not have 7 as th
 ----------------------------------------------------------------------------------------------------
 Try here:
 
-<a href="https://edaplayground.com/user/416269" target="_blank">
+<a href="https://edaplayground.com/x/rsGp" target="_blank">
   <img src="/utility/streamline-plump-color--gameboy.png" alt="Lets Play" width="70" height="70">
 </a>
 
