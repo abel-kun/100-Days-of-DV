@@ -17,7 +17,7 @@ First, we limit the size of the queue to 15.
 Next, the requirement is, the queue should have exactly four 7s. For this we can make use of the built-in array methods.
 ```systemverilog
   constraint con_2{
-    (queue.sum() with (item == 7)) == 4;
+    (queue.sum() with (int'(item == 7))) == 4;
   }
 ``` 
 .sum() is an array method that returns the sum of all array elements. Here, when we say, sum() with (item == 7), it would imply that the sum of all the elements that are 7. So, the queue is contrained to have exactly four 7s.
