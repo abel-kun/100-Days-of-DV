@@ -1,6 +1,6 @@
 # UVM Sequence Library
 ----------------------------------------------------------------------------------------------------
-Q. Given a very large number of sequences, how will you test all the sequences randomly without.
+Q. Given a very large number of sequences, how will you test all the sequences randomly without trying to run each and every sequence individually?
 ----------------------------------------------------------------------------------------------------
 
 The above can be achieved by using a UVM Sequence Library. This would enable faster verification as well as cover all the test sequences randomly.
